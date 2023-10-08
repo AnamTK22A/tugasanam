@@ -1,0 +1,126 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.opentext{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+.text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #2c79c2;
+}
+.text1A{
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.image{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.text1B{
+    margin-left: 80px;
+    color: white;
+    font-weight: 700;
+    margin-top: 5%;
+    text-decoration: none;
+}
+.text1B a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.text1C{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.text1C>li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text1C li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: #2c79c2;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.text2A{
+    margin-top: 12%;
+}
+.bg1{
+    width: 650px;
+    height: 600px;
+    margin-top: 5%;
+}
+.text3{
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: #2c79c2;
+}
+.text3A>h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 60px;
+}
+.text3A>p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+.text4{
+    justify-content: space-between;
+    padding: 3%;
+    background-image: url(/foto/png-transparent-abstract-blue-background-graphic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text4>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.closebar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #114270;
+    color: aliceblue;
+    align-items: baseline;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-left: 10%;
+}
